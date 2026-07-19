@@ -2432,26 +2432,6 @@ app.get(
   },
 );
 
-/* =========================================================
-   PATCH: Approve or reject an incoming request
-
-   PATCH /api/incoming-food-requests/:requestId/decision
-
-   Approve body:
-   {
-     "decision": "approved",
-     "pickupLocation": "...",
-     "contactNumber": "...",
-     "ownerMessage": "..."
-   }
-
-   Reject body:
-   {
-     "decision": "rejected",
-     "rejectionReason": "..."
-   }
-========================================================= */
-
 app.patch(
   "/api/incoming-food-requests/:requestId/decision",
   verifyToken,
