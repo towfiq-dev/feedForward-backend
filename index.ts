@@ -514,7 +514,7 @@ const connectDatabase = async (): Promise<void> => {
     usersCollection = database.collection("user");
 
     /* =====================
-         Food indexes
+        Food indexes
       ===================== */
 
     await foodsCollection.createIndex({
