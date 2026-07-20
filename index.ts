@@ -1148,19 +1148,10 @@ app.get(
 );
 
 
-
-
-
-
-
-
-
-
-
 /* =========================================================
-   GET: Get one available food by ID
+  GET: Get one available food by ID
 
-   Successful request increases view count.
+  Successful request increases view count.
 ========================================================= */
 
 app.get("/api/foods/:id", async (req: Request, res: Response) => {
