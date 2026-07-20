@@ -492,7 +492,7 @@ const verifyToken = async (
 };
 
 /* =========================================================
-   Database connection
+  Database connection
 ========================================================= */
 
 const connectDatabase = async (): Promise<void> => {
@@ -881,10 +881,10 @@ app.get("/api/foods", async (req: Request, res: Response) => {
 
 
 /* =========================================================
-   GET: Latest four available foods
+  GET: Latest four available foods
 
-   Public API:
-   GET /api/foods/latest
+  Public API:
+  GET /api/foods/latest
 ========================================================= */
 
 app.get(
