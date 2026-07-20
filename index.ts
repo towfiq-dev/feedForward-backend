@@ -3079,7 +3079,7 @@ if (process.env.NODE_ENV !== "production") {
 
       app.listen(port, () => {
         console.log(
-          `ShareBite Server is running on http://localhost:${port}`,
+          `FeedForward Server is running on http://localhost:${port}`,
         );
 
         console.log(`JWKS URL: ${jwksUrl.toString()}`);
@@ -3093,7 +3093,7 @@ if (process.env.NODE_ENV !== "production") {
         );
       });
     } catch (error) {
-      console.error("Unable to start ShareBite Server:", error);
+      console.error("Unable to start FeedForward Server:", error);
 
       await mongoClient.close();
     }
