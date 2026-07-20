@@ -3072,6 +3072,7 @@ app.use((error: Error, _req: Request, res: Response, _next: NextFunction) => {
    Start local server
 ========================================================= */
 
+
 if (process.env.NODE_ENV !== "production") {
   const startServer = async () => {
     try {
