@@ -1045,9 +1045,9 @@ app.get("/api/foods/:id/related", async (req: Request, res: Response) => {
 
 
 /* =========================================================
-   GET: Four foods expiring soon
+  GET: Four foods expiring soon
 
-   GET /api/foods/expiring-soon
+  GET /api/foods/expiring-soon
 ========================================================= */
 
 app.get(
